@@ -1,4 +1,4 @@
-# Single-Port RAM (1K x 8-bit) – Verilog
+# Single-Port RAM  – Verilog
 
 This repository contains a simple Verilog implementation and simulation testbench for a **Single-Port RAM** with a 10-bit address space and 8-bit data width. It demonstrates how a memory block can be written to and read from synchronously using a single clock input.
 
