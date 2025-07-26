@@ -1,0 +1,103 @@
+$date
+	Sun Jul 27 01:28:30 2025
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ns
+$end
+$scope module tb_coincident_ram_1k8 $end
+$var wire 8 ! dout [7:0] $end
+$var reg 10 " addr [9:0] $end
+$var reg 1 # clk $end
+$var reg 8 $ din [7:0] $end
+$var reg 1 % we $end
+$scope module DUT $end
+$var wire 10 & addr [9:0] $end
+$var wire 1 # clk $end
+$var wire 8 ' din [7:0] $end
+$var wire 1 % we $end
+$var wire 5 ( row_addr [4:0] $end
+$var wire 5 ) col_addr [4:0] $end
+$var reg 8 * dout [7:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#0
+$dumpvars
+bx *
+b0 )
+b0 (
+b0 '
+b0 &
+0%
+b0 $
+0#
+b0 "
+bx !
+$end
+#2
+b10101 )
+b10101010 $
+b10101010 '
+b10101 "
+b10101 &
+1%
+#5
+1#
+#10
+0#
+#12
+0%
+#15
+b10101010 !
+b10101010 *
+1#
+#20
+0#
+#25
+1#
+#30
+0#
+#32
+b111 (
+b100 )
+b1011100 $
+b1011100 '
+b11100100 "
+b11100100 &
+1%
+#35
+bx !
+bx *
+1#
+#40
+0#
+#42
+0%
+#45
+b1011100 !
+b1011100 *
+1#
+#50
+0#
+#55
+1#
+#60
+0#
+#62
+b11111 (
+b11111 )
+b1111111111 "
+b1111111111 &
+#65
+bx !
+bx *
+1#
+#70
+0#
+#72
