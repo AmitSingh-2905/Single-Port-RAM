@@ -1,11 +1,11 @@
-# 🧠 Single-Port RAM (1K x 8-bit) – Verilog
+# Single-Port RAM (1K x 8-bit) – Verilog
 
 This repository contains a simple Verilog implementation and simulation testbench for a **Single-Port RAM** with a 10-bit address space and 8-bit data width. It demonstrates how a memory block can be written to and read from synchronously using a single clock input.
 
-## 📁 Project Structure
+## Project Structure
 
 
-## 🚀 Features
+## Features
 
 - Single-port RAM with synchronous read/write
 - 10-bit address (supports 1024 memory locations)
@@ -14,12 +14,12 @@ This repository contains a simple Verilog implementation and simulation testbenc
 - Simulation testbench included
 - Generates `.vcd` file for waveform visualization
 
-## 🔧 Requirements
+## Requirements
 
 - [Icarus Verilog](http://iverilog.icarus.com/) or any Verilog simulator (e.g., ModelSim, Vivado)
 - [GTKWave](http://gtkwave.sourceforge.net/) to view `.vcd` waveform output
 
-## ▶️ How to Use
+## How to Use
 
 ### 1. Clone the Repository
 ```bash
